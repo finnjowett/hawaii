@@ -6,4 +6,13 @@ font-family: 'Roboto Slab', serif;}
 h1,h2,h3,h4,h5,h6{
     font-weight: normal;
 }
-@import "./header"
+main{
+    section.backImg{
+        min-height: 90vh;
+        width: 100%;
+        background-size: contain;
+        background-image: url('//hawaii-surfing-sport-pacific-ocean-usa-HAWAIISURF0519.jpeg');
+        background-position: center;
+    }
+}
+@import "./header/header";
