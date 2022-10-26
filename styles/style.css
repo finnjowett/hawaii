@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Island Moments", cursive;
+  font-family: "Roboto Slab", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header div.logo {
+  display: flex;
+  align-items: center;
+  flex: 5 1 400px;
+  margin-left: 2rem;
+}
+header div.logo img {
+  width: 6vw;
+  height: 6vw;
+}
+header nav {
+  flex: 2 1 400px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+header nav ul li a {
+  color: #159F81;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 500px) {
+  header div.logo {
+    margin-left: 0.5rem;
+  }
+  header div.logo img {
+    width: 12vw;
+    height: 12vw;
+  }
+}/*# sourceMappingURL=style.css.map */

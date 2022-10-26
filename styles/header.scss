@@ -1,0 +1,41 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    div.logo{
+        display:flex;
+        align-items: center;
+        flex:5 1 400px;
+        margin-left:2rem;
+        img{
+            width: 6vw;
+            height: 6vw;
+        }
+    }
+    nav{
+        flex:2 1 400px;
+        ul{display: flex;
+        list-style: none;
+        justify-content: space-around;
+    li{
+        a{
+            color: #159F81;
+            text-decoration: none;
+            font-size:1.3rem
+        }
+    }}
+    }
+    
+}
+@media screen and (max-width:500px) {
+    header{
+        div.logo{
+            margin-left: 0.5rem;
+            img{
+                width: 12vw;
+                height: 12vw;
+            }
+        }
+    }
+}
